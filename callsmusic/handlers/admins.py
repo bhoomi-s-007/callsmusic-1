@@ -52,7 +52,7 @@ async def resume(_, message: Message):
     )
 
 
-@Client.on_message(command("stop") & other_filters)
+@Client.on_message(command("end") & other_filters)
 @errors
 @authorized_users_only
 async def stop(_, message: Message):
@@ -68,7 +68,7 @@ async def stop(_, message: Message):
         await message.reply_text("Cleared the queue and left the call!")
 
 
-@Client.on_message(command("skip") & other_filters)
+@Client.on_message(command("next") & other_filters)
 @errors
 @authorized_users_only
 async def skip(_, message: Message):
@@ -84,7 +84,7 @@ async def skip(_, message: Message):
                 message.chat.id, queues.get(message.chat.id)["file"]
             )
 
-        await message.reply_text("Skipped!")
+        await message.reply_text("Playing Next Song!")
 
 
 @Client.on_message(command("mute") & other_filters)
