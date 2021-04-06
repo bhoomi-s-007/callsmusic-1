@@ -38,10 +38,10 @@ The commands I currently support are:
             [
                 [
                     InlineKeyboardButton(
-                        "Group", url="https://t.me/callsmusicchat"
+                        "Owner", url="https://t.me/DetectiveVI"
                     ),
                     InlineKeyboardButton(
-                        "Channel", url="https://t.me/callsmusic"
+                        "Plugins", url="https://t.me/VCPlayAssistant2"
                     )
                 ]
             ]
