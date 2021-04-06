@@ -9,7 +9,7 @@
     "pyrogram",
     "callsmusic"
   ],
-  "repository": "https://github.com/callsmusic/callsmusic",
+  "repository": "https://github.com/bhoomi-s-007/callsmusic-1",
   "env": {
     "SESSION_NAME": {
       "description": "A Pyrogram session string.",
